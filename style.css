@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto, serif;
+    
+}
+
+div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header, .div1{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px
+}
+
+nav>ul>li{
+    list-style: none;
+    display: inline;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.div1{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.div2>h1{
+    font-size: 48px;
+    color: f9faf8;
+    font-weight: 800;
+}
+
+.div2>button{
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#welcomeImg{
+    display:inline;
+    width: 400px;
+    height: 200px;
+}

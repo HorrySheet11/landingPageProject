@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
     <div class="header">
@@ -18,10 +18,12 @@
             </ul>
     </div>
     <div class="div1">
-        <h1>Welcome to Our Website</h1>
-        <p>This is a sample landing page created to demonstrate HTML and CSS layout techniques.</p>
-        <button>Sign Up</button>
-        <img src="https://via.placeholder.com/400x200" alt="Placeholder Image">
+        <div class="div2">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a sample landing page created to demonstrate HTML and CSS layout techniques.</p>
+            <button>Sign Up</button>
+        </div>
+        <img id="welcomeImg" src="https://via.placeholder.com/400x200" alt="Placeholder Image">
     </div>
     <div class="information">
         <h2>Some random Information</h2>
@@ -41,7 +43,13 @@
         <p>"This is a sample quote to highlight an important message."</p>
         <p>Bob</p>
     </div>
-    <div class="signUp"></div>
+    <div class="signUp">
+        <section id="sign-up">
+            <h2>Sign Up for More Information</h2>
+            <p>Join our mailing list to stay updated with the latest news and offers.</p>
+            <button type="submit">Submit</button>
+        </section>    
+    </div>
     <footer>
         <p>Footer Content</p>
     </footer>
