@@ -9,8 +9,8 @@ body{
 }
 
 div,section{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header, #div1,footer{
@@ -101,4 +101,34 @@ nav>ul>li>a{
     height: 150px;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+#quote-section{
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+    margin: 20px 0;
+    font-weight: 300;
+
+}
+
+.author{
+    font-size: 24px;
+    text-align: right;
+    font-style: italic;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 1px;
 }
