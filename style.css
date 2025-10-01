@@ -55,6 +55,7 @@ nav>ul>li>a{
 }
 
 .div2>button{
+    font-family: inherit;
     background-color: #3b82f6;
     color: white;
     border: none;
@@ -65,8 +66,10 @@ nav>ul>li>a{
     cursor: pointer;
 }
 
-#welcomeImg{
+.placeholder-img{
+    background: grey;
     display:inline;
     width: 400px;
     height: 200px;
+    border-radius: 10px;
 }
