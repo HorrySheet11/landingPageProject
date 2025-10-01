@@ -73,3 +73,32 @@ nav>ul>li>a{
     height: 200px;
     border-radius: 10px;
 }
+
+#welcomeImg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    text-align: center;
+}
+
+.info-flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.info-image-placeholder{
+    background: grey;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
