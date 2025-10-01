@@ -8,12 +8,12 @@ body{
     
 }
 
-div{
+div,section{
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.header, .div1{
+.header, #div1,footer{
     background-color: #1f2937;
     color: white;
 }
@@ -36,7 +36,7 @@ nav>ul>li>a{
     padding: 10px;
 }
 
-.div1{
+#div1{
     text-align: center;
     padding: 20px;
     display: flex;
